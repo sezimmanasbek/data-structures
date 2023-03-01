@@ -1,9 +1,4 @@
-import java.util.Arrays;
-
 public class InsertionSort {
-    public static void main(String[] args) {
-        System.out.println(Arrays.toString(insertionSort(new int []{5,3,7,2,1})));
-    }
  public static int[] insertionSort(int[] array){
      for (int i = 1; i < array.length; i++) {
          int toBeInserted= array[i];// save current value in a variable called toBeInserted
